@@ -139,7 +139,7 @@ if(!isset($_SESSION['usertype']))
 										<div class="form-group">
 											<label class="control-label text-primary" for="STATE">State</label>
 											<select name="STATE" id="STATE" required class="form-control">
-												<option value="" ">Select State</option>
+												<option value="">Select State</option>
 												<?php
 													$sql="SELECT STATE_ID,STATE_NAME FROM state ORDER BY STATE_NAME ASC";
 													$result=$con->query($sql);

@@ -11,11 +11,11 @@ error_reporting(0);?>
         <?php
         include("top_nav.php");
         ?>
-        <div class="container" style='margin-top:70px;'>
+        <div class="container-fluid" style='margin-top:20px;'>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <h3 class=" text-primary">
-                    <i class='fa fa-users'></i> New Donor Registration
+                    <i class='fa fa-users'></i> View Blood Donation Camps
                     </h3><hr>
                     <?php  include("blood_bread.php"); ?>
                 </div>

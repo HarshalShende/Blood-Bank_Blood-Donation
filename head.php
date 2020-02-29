@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <title>Blood Bank</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/jquery-ui.css" rel="stylesheet">

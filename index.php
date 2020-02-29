@@ -51,7 +51,7 @@
 
         <!-- Marketing Icons Section -->
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
                 <h1 class="page-header text-primary">
                    Online Blood Bank Management System
                 </h1>

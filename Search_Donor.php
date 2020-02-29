@@ -11,10 +11,10 @@ include("top_nav.php");
 ?>
 
     <!-- Page Content -->
-    <div class="container-fluid"  style='margin-top:70px;'>
+    <div class="container-fluid"  style='margin-top:20px;'>
         <!-- Marketing Icons Section -->
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
 			 <h3 class=" text-primary">
 					<i class='fa fa-search'></i>   Search Donor Avalibility
                 </h3><hr>
@@ -35,7 +35,7 @@ include("top_nav.php");
                     <div class="panel-body">
 					<form  name="frm" id="frm" >
 						<div class="form-group">
-							<label class="control-label text-primary">Search Type</label>
+							<label class="control-label text-primary">Search Criteria</label>
 								<select name="STYPE"  id="STYPE" required class="form-control input-sm">
 									<option value="PINCODE">Pincode</option>
 									<option value="AREA">Area</option>
@@ -43,6 +43,12 @@ include("top_nav.php");
 									<option value="STATE">State</option>
 								</select>
 						</div>
+						
+						<div class="form-group">
+							<label class="control-label text-primary">Search Text</label>
+							<input type="text" name="str" id="str" required placeholder="Type Here" class="form-control input-sm">
+						</div>
+
 						<div class="form-group">
 							<label class="control-label text-primary">Required Blood Group</label>
 								<select name="BLOOD" id="BLOOD" required  class="form-control input-sm">
@@ -66,10 +72,6 @@ include("top_nav.php");
 							<option value="A2B">Bombay o-</option>
 
 								</select>
-						</div>
-						<div class="form-group">
-							<label class="control-label text-primary">Search Text</label>
-							<input type="text" name="str" id="str" required placeholder="Type Here" class="form-control input-sm">
 						</div>
 						
 						 <div class="form-group">

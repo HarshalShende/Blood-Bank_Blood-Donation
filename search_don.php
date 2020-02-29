@@ -1,8 +1,10 @@
 <?php 
 			include "config.php";
+
 			if(!empty($_POST["str"]))
 			{
 				$sql="SELECT * FROM blood_donor WHERE ({$_POST["STYPE"]} LIKE '%{$_POST["str"]}%'  AND BLOOD='{$_POST["BLOOD"]}' AND STATUS=1)";
+			
 				$result=$con->query($sql);
 				if($result->num_rows>0)
 				{

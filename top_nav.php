@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
                     <li><a href="about.php"><i class="fa fa-users"></i> About us</a></li>
-                    <li><a href="Donor_reg.php"><i class="fa fa-briefcase"></i> Services</a></li>
+                    <li><a href="services.php"><i class="fa fa-briefcase"></i> Services</a></li>
                     <li><a href="contact.php"><i class="fa fa-envelope"></i> Contact us</a></li>
                     <li><a href="admin.php"><i class="fa fa-user-md"></i> Admin</a></li>
                 </ul>
