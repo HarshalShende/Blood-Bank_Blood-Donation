@@ -120,5 +120,9 @@ function load_patient($sql,$con)
 
 }
 
+function delete_camp($sql,$con){
+	
+}
+
 
 ?>

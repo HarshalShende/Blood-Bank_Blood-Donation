@@ -53,9 +53,10 @@ if(!isset($_SESSION['usertype']))
 										echo"<td>{$row["AREA"]}, {$row["CITY"]},<br>{$row["STATE"]},{$row["PINCODE"]}<br>{$row["COUNTRY"]}</td>";
 										echo"<td>{$row["DETAILS"]}</td>";
 										echo"<td>{$row["CAMP_DATE"]}</td>";
-										echo"<td>
-													<a class='btn btn-default btn-rounded mb-4 fa fa-edit' data-toggle='modal' data-target='#modalContactForm' href=''>&nbsp;Edit</a><br><br>
-													<a class='btn btn-default btn-rounded mb-4 fa fa-trash' href=''>&nbsp;Delete</a>
+										echo"<td class='text-center'>
+													<a  href='' class='btn btn-danger btn-xs hidden' data-toggle='modal' data-target='#modalContactForm'><i class='fa fa-trash'></i> Edit</a>
+													<a href='admin_camp_detail.php?id=".$row['CAMP_ID']."' class='btn btn-primary btn-xs'><i class='fa fa-edit'></i> View</a>
+													<a  href='admin_delete_camp.php?id=".$row['CAMP_ID']."' class='btn btn-danger btn-xs'><i class='fa fa-trash'></i> Delete</a>
 											</td>";
 								echo"</tr>";
 								}
@@ -94,9 +95,7 @@ if(!isset($_SESSION['usertype']))
 											<div class="row centered-form ">
 						<div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 ">
 							<div class="panel panel-primary">
-								<div class="panel-heading">
-									<h3 class="panel-title text-center" style="padding:5px;font-size:16px;font-weight:bold"><span class="fa fa-user "> </span> Add Blood Donation Camps</h3>
-								</div>
+						
 								<div class="panel-body">
 									<form method="post" action="admin_add_camps.php" autocomplete="off" role="form" enctype="multipart/form-data">
 										<div class="form-group">

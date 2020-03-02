@@ -35,7 +35,7 @@ error_reporting(0);?>
                 <div class="card hovercard h-100 " style="margin-top: 5rem; ">
                     <div class="cardheader border-warning">
                         <div class="avatar text-center">
-                            <img alt="" height="80%" width="80%" src="<?php echo $row['CAMP_PIC']; ?>">
+                            <img alt="" height="200px" width="200px" src="<?php echo $row['CAMP_PIC']; ?>">
                         </div>
                     </div>
                     <div class="card-body info">
