@@ -7,7 +7,7 @@
 
 <?php include"top_nav.php";?>
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide container-fluid">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -18,19 +18,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('images/s1.jpg');"></div>
+                <img class="fill" src='images/s1.jpg'  width="300px" height="200px" />
                 <div class="carousel-caption">
                     
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('images/s2.jpg');"></div>
+                <img class="fill" src='images/bd.jpg'  width="300px" height="200px" />
                 <div class="carousel-caption">
                    
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('images/s3.jpg');"></div>
+               <img class="fill" src='images/s33.jpg'  width="300px" height="200px" />
                 <div class="carousel-caption">
                     
                 </div>
@@ -56,8 +56,8 @@
                    Online Blood Bank Management System
                 </h1>
             </div>
-            		 <div class="col-md-4">
-                <div class="panel panel-primary">
+            <div class="col-md-4">
+                <!-- <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-user"></i> Donor Registration</h4>
                     </div>
@@ -89,7 +89,7 @@
                         <a href="Search_Donor.php" class="btn btn-primary">View More</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 			 
         </div>
         <!-- /.row -->
@@ -97,36 +97,51 @@
         <!-- Portfolio Section -->
       <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header  text-primary">Blood Donor Camps</h2>
+                <h3 class="page-header  text-primary">Blood Donation Quotes</h3>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p1.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p1.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p2.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p2.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p3.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p3.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p4.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p4.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p5.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p5.png" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="#">
-                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p6.jpg" alt="">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p6.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p7.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p8.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="images/p9.png" alt="">
                 </a>
             </div>
         </div>
@@ -135,45 +150,37 @@
         <!-- Features Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header  text-primary">Why we need you to give blood ?</h2>
+                <h2 class="page-header  text-center text-primary">Why we need you to give blood ?</h2>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-info h3">
               
 
 			<ul>
 				<li>Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments.</li>
+                <br>
 
 				<li>Many people would not be alive today if donors had not generously given their blood.</li>
+                <br>
 
-				<li>We need over 6,000 blood donations every day to treat patients in need across india. Which is why there’s always a need for people to give blood.</li>
+				<li>We need over 6,000 blood donations every day to treat patients in need across india. Which is why there’s always a need for people to give blood.</li><br>
 
-				<li>Each year we need approximately 200,000 new donors, as some donors can no longer give blood.</li>
+				<li>Each year we need approximately 200,000 new donors, as some donors can no longer give blood.</li><br>
 
-				<li>Most people between the ages of 17-65 are able to give blood.</li>
+				<li>Most people between the ages of 17-65 are able to give blood.</li><br>
 
-				<li>Around half our current donors are over 45. That's why we need more young people (over the age of 17) to start giving blood, so we can make sure we have enough blood in the future.</li>
+				<li>Around half our current donors are over 45. That's why we need more young people (over the age of 17) to start giving blood, so we can make sure we have enough blood in the future.</li><br>
 
 			</ul>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="images/contact.jpg" alt="">
+                <img class="img-responsive" src="images/bd.jpg" alt="">
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
 
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>We expect your loyal feedback to improve our standard.For more details and any subject related queries..</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-primary btn-block" href="contact.php"><i class="fa fa-phone"></i> Call to Action</a>
-                </div>
-            </div>
-        </div>
+        
 		
 		<div class="modal fade" id="myModal">
   <div class="modal-dialog">
